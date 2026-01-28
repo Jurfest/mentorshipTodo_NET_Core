@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MentorshipTodo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d62eea984b52f836267a2615ff263433d92a35e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c34aad01b115b5a2084479e61ca08ea9a047731b")]
 [assembly: System.Reflection.AssemblyProductAttribute("MentorshipTodo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MentorshipTodo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

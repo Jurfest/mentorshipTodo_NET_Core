@@ -3,6 +3,7 @@ using MentorshipTodo.Communication.Responses;
 using MentorshipTodo.UseCases.GetAll;
 using MentorshipTodo.UseCases.GetById;
 using MentorshipTodo.UseCases.Register;
+using MentorshipTodo.UseCases.Update;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -74,10 +75,27 @@ namespace MentorshipTodo.Controllers
             return Created(string.Empty, response);
         }
 
+        /*
         // PUT api/<TodosController>/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
+        }
+        */
+        
+        [HttpPut]
+        [Route("{id}")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(typeof(ResponseErrorMessagesJson), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(ResponseErrorMessagesJson), StatusCodes.Status404NotFound)]
+        public IActionResult Update([FromRoute] int id, [FromBody] RequestTodoJson request)
+        {
+            var useCase = new UpdateTodoUseCase();
+            useCase.Execute(id, request);
+            
+            // return Ok("Todo updated successfully.");
+            // Comportamento adotado ao realizar o update com sucesso, foi retornar no content | Qual o comportamento mais semântico?
+            return NoContent();
         }
 
         // DELETE api/<TodosController>/5
