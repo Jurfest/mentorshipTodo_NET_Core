@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MentorshipTodo", "MentorshipTodo\MentorshipTodo.csproj", "{6BF385C0-2C8F-4E00-A1F0-C8317C42EE4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BF385C0-2C8F-4E00-A1F0-C8317C42EE4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BF385C0-2C8F-4E00-A1F0-C8317C42EE4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BF385C0-2C8F-4E00-A1F0-C8317C42EE4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BF385C0-2C8F-4E00-A1F0-C8317C42EE4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
