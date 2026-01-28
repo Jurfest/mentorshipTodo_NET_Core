@@ -1,0 +1,19 @@
+# Pastas de compilação do .NET
+bin/
+obj/
+
+# Configurações do Rider e Visual Studio
+.idea/
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# Banco de dados SQLite (Importante!)
+*.db
+*.db-shm
+*.db-wal
+
+# Arquivos de log e temporários do SO
+.DS_Store
+Thumbs.db
