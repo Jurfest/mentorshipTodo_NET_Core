@@ -1,10 +1,10 @@
 using MentorshipTodo.Communication.Requests;
 using MentorshipTodo.Communication.Responses;
+using MentorshipTodo.UseCases.Delete;
 using MentorshipTodo.UseCases.GetAll;
 using MentorshipTodo.UseCases.GetById;
 using MentorshipTodo.UseCases.Register;
 using MentorshipTodo.UseCases.Update;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MentorshipTodo.Controllers
@@ -98,10 +98,25 @@ namespace MentorshipTodo.Controllers
             return NoContent();
         }
 
+        /*
         // DELETE api/<TodosController>/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+        }
+        */
+        
+        [HttpDelete]
+        [Route("{id}")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(typeof(ResponseErrorMessagesJson), StatusCodes.Status404NotFound)]
+        public IActionResult Delete([FromRoute] int id)
+        {
+            var useCase = new DeleteTodoUseCase();
+        
+            useCase.Execute(id);
+
+            return NoContent();
         }
     }
 }
