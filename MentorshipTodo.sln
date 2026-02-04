@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MentorshipTodo.Communicatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MentorshipTodo.Exceptions", "MentorshipTodo.Exceptions\MentorshipTodo.Exceptions.csproj", "{B7236FBD-0467-4A8E-B10D-D9B7BAB0FBB7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MentorshipTodo.HelloWorld", "MentorshipTodo.HelloWorld\MentorshipTodo.HelloWorld.csproj", "{57DBED0D-5B23-4DE6-9234-3875412A7D12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MentorshipTodo.HelloWorldEx", "MentorshipTodo.HelloWorldEx\MentorshipTodo.HelloWorldEx.csproj", "{98E09022-3A8B-41C0-A250-78887AFAC699}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{B7236FBD-0467-4A8E-B10D-D9B7BAB0FBB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7236FBD-0467-4A8E-B10D-D9B7BAB0FBB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7236FBD-0467-4A8E-B10D-D9B7BAB0FBB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57DBED0D-5B23-4DE6-9234-3875412A7D12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57DBED0D-5B23-4DE6-9234-3875412A7D12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57DBED0D-5B23-4DE6-9234-3875412A7D12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57DBED0D-5B23-4DE6-9234-3875412A7D12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98E09022-3A8B-41C0-A250-78887AFAC699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98E09022-3A8B-41C0-A250-78887AFAC699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98E09022-3A8B-41C0-A250-78887AFAC699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98E09022-3A8B-41C0-A250-78887AFAC699}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
