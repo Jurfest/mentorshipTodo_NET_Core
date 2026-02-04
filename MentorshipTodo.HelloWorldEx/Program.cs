@@ -1,7 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 // 1
-
 using System.Globalization;
 using MentorshipTodo.HelloWorldEx;
 
